@@ -5,6 +5,8 @@
     --secundario: #0097a7;
     --gris: #757575;
     --grisClaro: #dfe9fe;
+    --morado: rgb(208, 158, 255)
+    --claro: rgb(103, 117, 137)
 }
 
 /*Tipografía*/
@@ -13,7 +15,7 @@ h1, h2, h3{
 }
 h1{
     font-size: 3.8rem;
-    color: var(--blanco);
+    color: var(--morado);
 }
 h2{
     font-size: 2.8rem;
