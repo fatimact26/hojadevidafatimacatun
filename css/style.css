@@ -79,13 +79,35 @@ h3{
 }
 
 .fondo{
+    background: var(--coral);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 10rem;
+    position: relative;
+    margin-bottom: 2rem;
+    background-color: rgba(red, green, blue, alpha);
+    width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
    }
 .fondodatos{
-    color: var(--secundario);
-    font-weight: normal;
+    background-image: url(../img/portada\ 2.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 15rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+    background-color: rgba(red, green, blue, alpha);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
 }
 
 .letra h3{
@@ -93,7 +115,7 @@ h3{
 }
 
 .fondodatos{
-    color: var(--oscuro);
+   color: var(--oscuro);
     text-align: center;
 }
 
