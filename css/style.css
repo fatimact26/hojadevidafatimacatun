@@ -5,8 +5,12 @@
     --secundario: #0097a7;
     --gris: #757575;
     --grisClaro: #dfe9fe;
-    --morado: rgb(208, 158, 255)
-    --claro: rgb(103, 117, 137)
+    --morado: #8A2BE2;
+    --claro2: #5F9EA0;
+    --coral: #FF7F50;
+    --rosa: #DB7093;
+    --rosapastel: #FFC0CB;
+    --marron: #800000;
 }
 
 /*Tipografía*/
@@ -15,7 +19,7 @@ h1, h2, h3{
 }
 h1{
     font-size: 3.8rem;
-    color: var(--morado);
+    color: var(--oscuro);
 }
 h2{
     font-size: 2.8rem;
@@ -30,7 +34,7 @@ h3{
     color: var(--primario);
 }
 .navegacion{
-    background-color: var(--secundario);
+    background-color: var(--rosapastel);
     padding: 1rem;
 }
 .navegacion-principal{
@@ -75,7 +79,7 @@ h3{
 }
 
 .fondo{
-    background-image: url(../img/portada.jpg);
+    background: var(--morado);
     background-repeat: no-repeat;
     background-size: cover;
     height: 10rem;
