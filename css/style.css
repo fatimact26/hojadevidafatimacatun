@@ -94,7 +94,7 @@ h3{
     justify-content: center;
    }
 .fondodatos{
-    background-image: url(../img/portada\ 2.avif);
+    background-color: var(--rosa);
     background-repeat: no-repeat;
     background-size: cover;
     height: 15rem;
@@ -108,6 +108,9 @@ h3{
     align-items: center;
     justify-content: center;
     background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .letra h3{
@@ -195,6 +198,9 @@ h3{
     line-height: 2;
     text-align: center;
 
+}
+.fondoescuela{
+    background-color: var(--claro2)
 }
 
 @media (min-width: 768px){
