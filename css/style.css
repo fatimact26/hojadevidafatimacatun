@@ -225,3 +225,9 @@ h3{
     line-height: 2;
     text-align: center;
 }
+
+@media (max-width: 390px) {
+    .navegacion-principal a{
+     display:block; 
+        ]
+    ]
