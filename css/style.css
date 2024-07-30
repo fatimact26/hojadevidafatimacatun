@@ -197,10 +197,11 @@ h3{
 .escuela p{
     line-height: 2;
     text-align: center;
+    flex-direction: column;
 
 }
 .fondoescuela{
-    background-color: var(--claro2)
+    background-color: var(--coral)
 }
 
 @media (min-width: 768px){
